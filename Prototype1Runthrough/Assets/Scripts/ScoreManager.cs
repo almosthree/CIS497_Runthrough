@@ -45,7 +45,7 @@ public class ScoreManager : MonoBehaviour
             }
             else
             {
-                textbox.text = "You win! \nPress R to Try Again!";
+                textbox.text = "You lose! \nPress R to Try Again!";
             }
             if (Input.GetKeyDown(KeyCode.R))
             {

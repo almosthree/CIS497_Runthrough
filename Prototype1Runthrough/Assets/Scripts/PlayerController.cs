@@ -30,8 +30,9 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
-
+         //moves forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
+        //moves side to side
         transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizontalInput);
 
     }
