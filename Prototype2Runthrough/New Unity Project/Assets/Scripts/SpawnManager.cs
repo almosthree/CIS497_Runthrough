@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+* (Jerod Lockhart)
+* (Prototype 2)
+* (Causes the animals to randomly spawn)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

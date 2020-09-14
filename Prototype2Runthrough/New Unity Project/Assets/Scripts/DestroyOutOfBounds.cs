@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*
+* (Jerod Lockhart)
+* (Prototype 2)
+* (Makes the food go away when it goes off screen, and causes the 
+* animals to make you lose health once they go off screen)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

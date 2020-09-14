@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+* (Jerod Lockhart)
+* (Prototype 2)
+* (Code that shows you your score)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
