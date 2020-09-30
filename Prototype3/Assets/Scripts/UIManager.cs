@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿
+/*
+* (Jerod Lockhart)
+* (Prototype 3)
+* (File manages the text files on the game)
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

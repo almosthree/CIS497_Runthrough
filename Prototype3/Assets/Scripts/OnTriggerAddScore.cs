@@ -24,7 +24,7 @@ public class OnTriggerAddScore : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player")&& !triggered)
+        if (other.CompareTag("Player") && !triggered)
         {
             triggered = true;
             uIManager.score++;
